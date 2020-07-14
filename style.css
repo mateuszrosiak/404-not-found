@@ -43,7 +43,21 @@ body {
 }
 
 .content__paragraph {
-    margin-bottom: 42px;
+    margin-bottom: 70px;
 }
 
-.btn {}
+.btn {
+    width: 200px;
+    height: 60px;
+    border-style: none;
+    background-color: #000;
+    color: #fff;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+
+.content__footer {
+    margin-top: 100px;
+    align-self: center;
+
+}
