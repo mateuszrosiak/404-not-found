@@ -7,7 +7,7 @@
 body {
     background-color: #fff;
     font-size: 16px;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Space Mono', sans-serif;
 }
 
 .wrapper {
@@ -17,10 +17,10 @@ body {
 }
 
 .header__heading {
+    font-family: Inconsolata;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: 'Special Elite', cursive;
-    font-weight: 800;
+    letter-spacing: -0.08em;
+    font-size: 24px;
 }
 
 .content {
@@ -37,13 +37,14 @@ body {
 }
 
 .content__heading {
-    font-size: 52px;
+    font-size: 48px;
     font-weight: 700;
-    margin-bottom: 26px;
+    margin-bottom: 29px;
 }
 
 .content__paragraph {
-    margin-bottom: 70px;
+    font-size: 18px;
+    margin-bottom: 67px;
 }
 
 .btn {
@@ -54,10 +55,13 @@ body {
     color: #fff;
     font-family: inherit;
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 .content__footer {
-    margin-top: 100px;
+    margin-top: 96px;
     align-self: center;
-
+    font-size: 14px;
 }
+
+@media only screen and (min-width: 1024px) {}
