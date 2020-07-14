@@ -71,7 +71,7 @@ body {
     font-size: 14px;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
     /* .content {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -104,7 +104,7 @@ body {
     }
 
     .content__paragraph {
-        max-width: 65%;
+        max-width: 381px;
     }
 }
 
